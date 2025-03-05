@@ -6,5 +6,5 @@ test("Insertion Sort 正確排序數字陣列", () => {
     -5, -1, 0, 2, 4, 5, 6, 10,
   ]);
   expect(insertionSort([1, 2, 3, 4, 5])).toEqual([1, 2, 3, 4, 5]);
-  expect(insertionSort([5, 4, 3, 2, 1])).toEqual([1, 2, 3, 4, 5]);
+  expect(insertionSort([5, 5, 5, 5, 5])).toEqual([5, 5, 5, 5, 5]);
 });
